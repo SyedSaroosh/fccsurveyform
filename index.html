@@ -1,0 +1,59 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>survey foam</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">HTML & CSS SURVEY FOAM</h1>
+        <p id="description">lets get started over html & CSS journey</p>
+        <form id="survey-form">    
+          <label  id="name-label" for="name">name</label>
+         <input name="username" type="name" id="name" placeholder="enter your name" required/><br>
+          <label id="email-label" for="email">email</label>
+         <input name="emailaddress" type="email" id="email" placeholder="enter your email" required/><br>
+          <label id="number-label" for="number">Age</label>
+        <input type="number" name="age" id="number" placeholder="enter your age"  min="1" max="5" required/><br>
+            <label for="dropdown" >which role describes your current role?</label>
+            <select name="dropdox" id="dropdown" aria-placeholder="enter your role">
+                <option disabled selected value>Select current role</option>
+                <option>student</option>
+                <option>begginer</option>
+                <option>middle-tier</option>
+                <option>regular job</option>
+                <option>expert</option>
+            </select>,
+            <div id="radio"><h3>do you like my form !</h3>
+            <label for="radio">Yes</label>
+            <input type="radio" name="radio" id="radio-" value="yes" >
+            <br>
+            <label for="radio"> No </label>
+            <input type="radio" name="radio" id="radio" value="no" >
+            <br>
+              <label for="radio"> skip </label>
+            <input type="radio" name="radio" id="radio" value="0" checked>
+            </div>
+            <div id="dropdown2">
+            <label for="dropdown2" >lets select yuor foam color?</label>
+            <select name="dropdox"  id="dropdown2" aria-placeholder="dropdown">
+                <option disabled selected value>form color</option>
+                <option>black</option>
+                <option>white</option>
+                <option>red</option>
+                <option>green</option>
+                <option>pink</option>
+            </select></div>
+            <div id="checkbox">
+                <h3>let select ! </h3>
+                <label for="html">html</label>
+                <input type="checkbox" name="html"  value="3"/>
+               <br>
+               <label for="css">css</label>
+               <input type="checkbox" name="css" value="9"/> 
+            </div>
+        <textarea> help us improve! </textarea>
+            <button id="submit">submit</button>
+        </form>
+    </body>
+ </html> 
